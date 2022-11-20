@@ -15,4 +15,17 @@
 
 ## 2. 运行步骤
 
-1. 
+1. 运行服务端
+    ```shell
+    cd server
+    go build server.go
+    ./server
+    ```
+2. 运行两个客户端
+    ```shell
+    cd client
+    go build client.go
+    ./client A 127.0.0.1 9527 1234
+    ./client B 127.0.0.1 9527 4321
+    ```
+3. 使用 p2p 网络进行通讯
