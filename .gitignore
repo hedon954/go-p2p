@@ -1,9 +1,14 @@
+# IDE
+.idea
+
 # Binaries for programs and plugins
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
+server
+client
 
 # Test binary, built with `go test -c`
 *.test
